@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFB6C1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.HelloController">
+   <children>
+      <Text layoutX="135.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To appointment Booking" wrappingWidth="366.13671875" AnchorPane.bottomAnchor="321.0" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="98.86328125" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Text layoutX="53.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your name" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="394.298828125">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="44.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your phone number" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="317.29931640625">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="47.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your email" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="402.01123046875">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <TextField fx:id="eName" layoutX="318.0" layoutY="122.0" prefHeight="25.0" prefWidth="198.0" AnchorPane.leftAnchor="318.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ePhone" layoutX="318.0" layoutY="169.0" prefHeight="25.0" prefWidth="198.0" AnchorPane.leftAnchor="318.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="eEmail" layoutX="321.0" layoutY="212.0" prefHeight="25.0" prefWidth="198.0" AnchorPane.leftAnchor="318.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="492.0" layoutY="342.0" mnemonicParsing="false" onAction="#next3" prefHeight="44.0" prefWidth="95.0" text="Next" />
+      <Button layoutX="14.0" layoutY="342.0" mnemonicParsing="false" onAction="#back3" prefHeight="44.0" prefWidth="95.0" text="Back" />
+      <Text layoutX="44.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your code">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <TextField fx:id="eCode" layoutX="318.0" layoutY="257.0" prefHeight="25.0" prefWidth="198.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="318.0" layoutY="311.0" mnemonicParsing="false" onAction="#clear" text="correction" />
+   </children>
+</AnchorPane>
